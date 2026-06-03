@@ -1,0 +1,17 @@
+# Data Structure
+print("Example: List")
+fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
+print(f"Count of apple is: {fruits.count('apple')}")
+print(f"Count of tangerine is: {fruits.count('tangerine')}")
+print(f"First index of banana is: {fruits.index('banana')}")
+print(f"Find next banana, index of next banana is: {fruits.index('banana', 4)}")
+print(f"Fruits before reverse: {fruits}")
+fruits.reverse()
+print(f"Revert after reverse: {fruits}")
+fruits.append('grape')
+print(f"Fruits after append new item: {fruits}")
+fruits.sort()
+print(f"Fruits after sort: {fruits}")
+last_fruit: str = fruits.pop()
+print(f"Fruit popped: {last_fruit}")
+print(f"Fruits after pop one: {fruits}")
