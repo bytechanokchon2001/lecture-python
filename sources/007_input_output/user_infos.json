@@ -1,0 +1,10 @@
+{
+    "username": "byte.chanokchon",
+    "age": 25,
+    "skill": [
+        "Python",
+        "C#",
+        "Java"
+    ],
+    "is_online": true
+}
